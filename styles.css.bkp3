@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background-color: #3e4551;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+}
+
+.photo-gallery-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.wedding-details-section {
+    background-color: #e6f7ff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.venue-section {
+    background-color: #f9e8b2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.venue-section .directions-button {
+    display: inline-block;
+    background-color: #3e4551;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.venue-section .directions-button:hover {
+    background-color: #1f2630;
+}
+
+.youtube-section {
+    background-color: #b5e7a0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.youtube-section .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.youtube-section .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Add styles for other sections as needed */
+

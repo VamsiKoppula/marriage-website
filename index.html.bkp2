@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vamsi weds Anushka</h1>
+    </header>
+    
+    <div class="photo-gallery">
+        <img src="https://i.ndtvimg.com/i/2017-12/anushka-sharma-virat-kohli_650x400_51513006263.jpg" alt="Couple Photo 1">
+        <img src="https://assets.vogue.in/photos/5ed8ce6654c8cbd19bec6d48/16:9/w_1280,c_limit/Virat%20Kohli%20and%20Anushka%20Sharma%20wedding.jpg" alt="Couple Photo 2">
+    </div>
+
+    <section class="wedding-details">
+        <h2>Wedding Details</h2>
+        <p>Date: 14-Feb-2025 </p>
+        <p>Time: 11:59 PM </p>
+        <p>Venue: Novatel convention centre </p>
+        <button onclick="navigateToGoogleMaps()">Get Directions</button>
+    </section>
+
+    <section class="venue-section">
+        <h2>Venue</h2>
+        <p>Novatel Convention centre</p>
+    </section>
+
+    <section class="youtube-section">
+        <h2>Pre-wedding Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNKZN8uq1H8" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Other sections can be added as needed -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
